@@ -1,5 +1,5 @@
-This folder has three images:
+Contents:
 
-PhotoGrid.png -> This is home page for displaying images in grid format
-PhotoGridOnClick.png -> Displays on focus and click feature for any image on the page
-PhotoGridDetail.png -> Demonstarates the on click feature effect for any image.
+PhotoGrid.png :          This is home page for displaying images in grid format
+PhotoGridOnClick.png :   Displays on focus and click feature for any image on the page
+PhotoGridDetail.png :    Demonstarates the on click feature effect for any image.
