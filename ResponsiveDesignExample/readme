@@ -1,7 +1,11 @@
 CONTENTS
 
+Folders
 Images - contains images for the app
 CSS - contains different stylesheets for the app
+Screenshots - Contains sample screenshots of running app
+
+Files
 index.html -  This is the user view
 gulpfile.js - Gulp content including browser sync
 
