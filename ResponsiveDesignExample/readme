@@ -6,7 +6,7 @@ CONTENTS
  3) img - contains original image
 
 For development purposes, I used gulp to create the final version mentioned above:
-gulpfile.js - Gulp content including browser sync
+gulpfile.js - contains plugins and functionality used for devlopement 
 
 RUNNING THE APP
 To run the app ,Open the index.html in 'dist' folder in a browser
