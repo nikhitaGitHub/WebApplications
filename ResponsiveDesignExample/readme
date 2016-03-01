@@ -1,0 +1,12 @@
+CONTENTS
+
+Images - contains images for the app
+CSS - contains different stylesheets for the app
+index.html -  This is the user view
+gulpfile.js - Gulp content including browser sync
+
+RUNNING THE APP
+To run the app ,Open the index.html file in a browser
+
+GULP USAGE
+To see Gulp functionality, Install gulp and browser-sync and run gulp from command line
