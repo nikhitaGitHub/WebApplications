@@ -4,6 +4,7 @@ CONTENTS
  1) index.html -  This is the user view
  2) Images - contains minified images used for the view
  3) img - contains original image
+ 4) css - style sheets for the view
 
 For development purposes, I used gulp to create the final version mentioned above:
 gulpfile.js - contains plugins and functionality used for devlopement 
