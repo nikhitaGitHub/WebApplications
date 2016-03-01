@@ -19,7 +19,7 @@
   .header__title {
     margin-left: 0;
     font-size: 2em;
-    vertical-align: bottom; 
+    vertical-align: bottom;
   }
   .nav {
     z-index: 10;
@@ -31,10 +31,10 @@
     transform: translate(-300px, 0);
     /* Optionally, we animate the drawer. */
     transition: transform 0.3s ease;
-  }
-  .nav.open {
-    -webkit-transform: translate(0, 0);
-    transform: translate(0, 0);
+    &.open {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0);
+    }
   }
   .nav__item {
     display: list-item;
@@ -47,10 +47,10 @@
     position: absolute;
     right: 0;
     padding: 1em;
-  }
-  .header__menu svg {
-    width: 32px;
-    fill: #E0E0E0;
+    svg {
+      width: 32px;
+      fill: #E0E0E0;
+    }
   }
 }
 
