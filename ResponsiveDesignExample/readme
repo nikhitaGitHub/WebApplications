@@ -1,13 +1,15 @@
 CONTENTS
-
+"screenshots" folder contains some screenshots of the app for varying devices.
 "dist"  folder contains the developed final version of project. It has the following content
-  Images - contains minified images for the app
-  img - contains original images
-  CSS - contains different stylesheets for the app
-  index.html -  This is the user view
+ 1) index.html -  This is the user view
+ 2) Images - contains minified images used for the view
+ 3) img - contains original image
 
 For development purposes, I used gulp to create the final version mentioned above:
 gulpfile.js - Gulp content including browser sync
 
 RUNNING THE APP
-To run the app ,Open the index.html file in a browser
+To run the app ,Open the index.html in 'dist' folder in a browser
+
+
+
