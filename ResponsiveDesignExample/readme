@@ -9,7 +9,7 @@ For development purposes, I used gulp to create the final version mentioned abov
 gulpfile.js - contains plugins and functionality used for devlopement 
 
 RUNNING THE APP
-To run the app ,Open the index.html in 'dist' folder in a browser
+To run the app ,Open the index.html file from the 'dist' folder in a browser
 
 
 
