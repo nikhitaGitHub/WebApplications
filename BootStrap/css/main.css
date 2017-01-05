@@ -1,0 +1,36 @@
+.textGreen {
+	color: #747704;
+}
+
+.textGrey {
+	color: #BCBBBB;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.light {
+	font-weight: light;
+}
+
+.artTitle{
+	font-size: 18px;
+}
+
+.name {
+	font-size: 42px;
+}
+
+.featuredWork {
+	font-size: ;
+}
+
+figcaption {
+	font-weight: bold;
+	font-size: 32px;
+}
+
+img:hover {
+	cursor: pointer;
+}

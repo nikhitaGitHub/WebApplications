@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!-- Written by Nikhita Sareen 
+December 29 2016
+-->
+<!--This web applicaion is designed to show featured work of Jane Doette-->
+<html lang="en">
+	<head>
+		<!--Using UTF-8 encoding-->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/main.css">
+		<title>Art</title>
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<main class="container">
+			<section class="row">
+				<figure class="col-md-6">
+					<img class="img-responsive" src="https://placekitten.com/g/105/88" alt="logo">
+				</figure>
+				<div class="col-md-6 text-right text-uppercase textGreen">
+					<h1 class="name light">Jane doette</h1>
+					<h4 class="">Front-End Ninja</h4>
+				</div>
+			</section>
+			<section class="row">
+				<figure class="col-md-12">
+					<img class="img-responsive" src="https://placekitten.com/g/1200/400">
+				</figure>
+			</section>
+			<section class="row">
+				<h1 class="col-md-12 textGrey">Featured Work</h1>
+			</section>
+			<section class="row text-uppercase text-center textGreen artTitle">
+				<figure class="col-md-4" data-toggle="modal" data-target="#project1">
+					<img class="img-responsive" src="https://placekitten.com/g/300/150" alt="placeholder" width="300" height="150">
+					<figcaption class="">Appify</figcaption>
+				</figure>
+				<figure class="col-md-4" data-toggle="modal" data-target="#project2" >
+					<img class="img-responsive" src="https://placekitten.com/g/300/150" alt="placeholder">
+					<figcaption class="">Sunflower</figcaption>
+				</figure>
+				<figure class="col-md-4" data-toggle="modal" data-target="#project3" >
+					<img class="img-responsive" src=" https://placekitten.com/g/300/150" alt="placeholder">
+					<figcaption class="">Bokeh</figcaption>
+				</figure>
+		</section>
+		</main>
+		<!-- MODAL1 -->
+		<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title col-md-11" id="ModalLabel">Description</h4>
+						<button type="button" class="close pull-right col-md-1" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							<span class="sr-only">Close</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- MODAL2 -->
+		<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title col-md-11" id="ModalLabel">Description</h4>
+						<button type="button" class="close pull-right col-md-1" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							<span class="sr-only">Close</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- MODAL3 -->
+		<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title col-md-11" id="ModalLabel">Description</h4>
+						<button type="button" class="close pull-right col-md-1" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							<span class="sr-only">Close</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
